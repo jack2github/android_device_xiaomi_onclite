@@ -63,6 +63,10 @@ ro.vendor.qti.va_aosp.support=1
 ro.vendor.qti.sys.fw.bservice_enable=true
 ro.vendor.qti.am.reschedule_service=true
 
+# Power saving
+power.saving.mode=1
+pm.sleep_mode=1
+
 # Radio
 DEVICE_PROVISIONED=1
 persist.radio.multisim.config=dsds
@@ -84,6 +88,8 @@ ro.telephony.iwlan_operation_mode=legacy
 ro.telephony.call_ring.multiple=false
 ro.telephony.default_network=22,22
 telephony.lteOnCdmaDevice=1
+ro.vold.umsdirtyratio=20
+ro.ril.disable.power.collapse=0
 
 # WFD
 persist.debug.wfd.enable=1
