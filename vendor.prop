@@ -21,6 +21,7 @@ vendor.voice.record.conc.disabled=false
 vendor.voice.voip.conc.disabled=true
 
 # Bluetooth
+persist.vendor.qcom.bluetooth.aac_vbr_ctl.enabled=false
 vendor.qcom.bluetooth.soc=pronto
 
 # Dex2oat
